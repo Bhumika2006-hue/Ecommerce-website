@@ -81,54 +81,31 @@ Render / Vercel / Netlify for deployment
 
 # ⚙️ Installation & Setup
 
-# 1️⃣ Clone this repository
+ 1️⃣ Clone this repository
 git clone https://github.com/yourusername/ecommerce-website.git
 
-# 2️⃣ Navigate to the project directory
+ 2️⃣ Navigate to the project directory
 cd ecommerce-website
 
-# 3️⃣ Install dependencies for both backend and frontend
+ 3️⃣ Install dependencies for both backend and frontend
 cd backend && npm install
 cd ../frontend && npm install
 
-# 4️⃣ Set up environment variables
-# Create a .env file in the backend folder and include:
+ 4️⃣ Set up environment variables
+ Create a .env file in the backend folder and include:
 MONGO_URI=your_mongodb_connection_string
 JWT_SECRET=your_jwt_secret_key
 STRIPE_KEY=your_payment_api_key
 
-# 5️⃣ Run the development servers
-# Start backend
+ 5️⃣ Run the development servers
+ Start backend
 cd backend
 npm run dev
 
-# Start frontend
+ Start frontend
 cd ../frontend
 npm start
 
-
----
-
-# 🧩 Folder Structure
-
-ecommerce-website/
-│
-├── backend/
-│   ├── config/
-│   ├── controllers/
-│   ├── models/
-│   ├── routes/
-│   └── server.js
-│
-├── frontend/
-│   ├── src/
-│   │   ├── components/
-│   │   ├── pages/
-│   │   ├── context/
-│   │   └── App.js
-│   └── package.json
-│
-└── README.md
 
 ---
 
@@ -143,9 +120,3 @@ Contributions are welcome! Feel free to fork this repo and submit a pull request
 
 Author: Bhumika Tewari
 📧 bhumikatewariit@gmail.com
-💻 Project Repository
-
-
----
-
-Would you like me to customize this with your real GitHub username and deployment link (for example, if it’s hosted on Vercel or Render)?
