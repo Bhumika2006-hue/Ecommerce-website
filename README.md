@@ -4,7 +4,8 @@
 An end-to-end Full-Stack E-Commerce Web Application built using the MERN (MongoDB, Express, React, Node.js) stack.
 It allows users to browse products, add items to cart, place orders, and make secure payments — while providing admin features for managing inventory, users, and sales.
 
-# 🔗 Live Demo: https://ecommerce-web-flax.vercel.app
+# 🔗 Live Demo: 
+https://ecommerce-web-flax.vercel.app
 
 ---
 
@@ -120,3 +121,4 @@ Contributions are welcome! Feel free to fork this repo and submit a pull request
 
 Author: Bhumika Tewari
 📧 bhumikatewariit@gmail.com
+
